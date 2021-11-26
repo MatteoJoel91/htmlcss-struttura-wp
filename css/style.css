@@ -1,15 +1,24 @@
+/* edit a tutti gli elementi */
 * {
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
 }
 
+
+/* edit del clearfix */
+.clearfix {
+    clear: both;
+}
+
+
+/* edit intestazione */
 header {
     height: 100px;
     background-color: #f594f8;
     width: 60%;
 }
-.box1 {
+.box {
     height: 300px;
     background-color: #c9c686;
     width: 60%;
@@ -17,20 +26,20 @@ header {
     margin-bottom: 25px;
 }
 
-.container-main {
+
+/* edit corpo principale */
+.containitore {
     width: 60%;
     padding-bottom: 20px;
     height: 600px;
     background-color: rgb(50, 115, 255);
 }
-
 .barra-top{
     background-color: rgb(172, 222, 252);
     width: 100%;
     height: 10%;
     margin-bottom: 2%;
 }
-
 .barra-sinistra{
     width: 23%;
     float: left;
@@ -39,7 +48,6 @@ header {
     background-color: rgb(172, 222, 252);
     height: 86%;  
 }
-
 .contenuto{
     width: 50%;
     float: left;
@@ -49,7 +57,6 @@ header {
     height: 86%;
     margin: 0px 2%;
 } 
-
 .barra-destra{;
     width: 23%;
     float: left;
@@ -59,14 +66,12 @@ header {
     height: 86%;
 }
 
+
+/* edit del fine pagina */
 footer {
     width: 60%;
     height: 50px;
     background-color: rgb(98, 63, 155);
     margin-top: 10px;
     margin-bottom: 25px;
-}
-
-.clearfix {
-    clear: both;
 }
