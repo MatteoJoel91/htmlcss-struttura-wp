@@ -17,6 +17,7 @@ header {
     height: 100px;
     background-color: #f594f8;
     width: 60%;
+    margin-top: 25px;
 }
 .box {
     height: 300px;
